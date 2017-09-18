@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>sophie-chat-testPage</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://use.fontawesome.com/bc617bd846.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id='chatAll'>
+            <div id='chatTitle'>
+                <div class='content'>
+                    <div class='content alignLeft'>
+                        <span style='color: #fff;'>
+                                <i class="fa fa-bars fa-fw" aria-hidden="true" style='margin-right: 5px;'></i>
+                                Question to us?
+                        </span>
+                    </div>
+                    <div class='content alignRight'>
+                        <span style='color: white; float: right;'>
+                            <i class="fa fa-angle-up fa-fw" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id='chatArea'>
+                <div id='chatContents'>
+                    <div class='box'>
+                        <div class='circle owner-name'>
+                            <div class='name'>CoED</div>
+                        </div>
+                        <div class='template template-owner'>
+                            <div class='conversations'><p>How can I help you?</p></div>
+                        </div>
+                    </div>
+                    <!-- <div class='box'>
+                        <div class='circle user-name'>
+                            <div class='name'>User</div>
+                        </div>
+                        <div class='template template-user'>
+                            <div class='conversations'>I don't know.</div>
+                        </div>
+                    </div> -->
+                </div>
+                <div id='chatInput'>
+                    <p style='font-size: .7em; float: right; margin-bottom: 1%;'><a href='mailto: cmo-dmg@mail.rakuten.com'>Please report bug!</a></p>
+                    <div style='clear: both; width: 105%; margin-left: 2%;'>
+                        <input type='text' id='userMessage'>
+                        <input type='submit' id='chatSubmit'>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+    </script>
+    <script src='app.js'></script>
+</html>
